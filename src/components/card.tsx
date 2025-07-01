@@ -3,7 +3,6 @@ import Image from "next/image";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { useCart} from "@/Context/cartContext";
 import { useState } from "react";
-import { IoCloseOutline } from "react-icons/io5";
 import imgData from "@/lib/images";
 
 // shadcn import

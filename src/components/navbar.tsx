@@ -5,7 +5,7 @@ import { useCart} from "@/Context/cartContext";
 
 
 
-export default function navbar(){
+export default function Navbar(){
     const { cart } = useCart();
     const cartLength = cart.length;
     console.log(cartLength, "item number in cart");

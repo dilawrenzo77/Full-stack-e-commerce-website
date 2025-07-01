@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Hero2 from "@/assets/veldt/hero2.jpg";
 import { useCart } from "@/Context/cartContext";
 import imgData from "@/lib/images";
 
@@ -18,7 +17,7 @@ type CardProps = {
     data : Product
 }
 
-export default function inspectionCard({data} : CardProps) {
+export default function InspectionCard({data} : CardProps) {
     const { addToCart, removeFromCart, updateQuantity } = useCart();
 
     const findImage = imgData.find((item) => item.imgName === data.prodName);

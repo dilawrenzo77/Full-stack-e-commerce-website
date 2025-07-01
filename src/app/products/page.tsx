@@ -9,7 +9,7 @@ import { TbShoppingBag } from "react-icons/tb";
 // import imgData from "@/lib/images/imgData";
 
 
-export default function products() {
+export default function Products() {
   const [allProducts, setAllProducts] = useState();
   const { cart } = useCart();
   const cartLength = cart.length;

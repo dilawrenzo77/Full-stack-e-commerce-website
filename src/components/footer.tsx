@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-export default function footer() {
+export default function Footer() {
     return (
         <div className="flex flex-col items-center justify-between gap-4 w-full px-4">
         <div className="px-4 flex flex-col items-center justify-between sm:flex-row  w-full"> 
