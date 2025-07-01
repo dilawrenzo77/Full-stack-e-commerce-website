@@ -13,7 +13,7 @@ export default function Collections( {params}: {
 })
 {
     const { collection } = React.use(params);
-    const [collectionProducts, setCollectionProducts] =useState<any[]>([]);
+    const [collectionProducts, setCollectionProducts] =useState<Product[]>([]);
     const { cart } = useCart();
       const cartLength = cart.length;
 

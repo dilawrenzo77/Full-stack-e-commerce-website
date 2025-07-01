@@ -4,7 +4,7 @@ import { useCart} from "@/Context/cartContext";
 import Link from "next/link";
 import { TbShoppingBag } from "react-icons/tb";
 
-export default function checkOut() {
+export default function CheckOut() {
     const { cart, totalCartItems, totalAmount } = useCart();
     const cartLength = cart.length;
 
@@ -27,7 +27,7 @@ export default function checkOut() {
                         <div className="flex flex-col items-start justify-center gap-3 bg-gray-200 grow px-2 py-4 rounded-md shadow-neumorphism">
                             <p className="font-cinzel text-center sm:text-start">ITEMS</p>
                             {cart.length > 0 && cart.map(item => 
-                            <div className="flex flex-col sm:flex-row items-center  gap-2  justify-center sm:justify-between bg-neutral-950 shadow-neumorphism w-full px-2 rounded-md">
+                            <div key={item.prodName} className="flex flex-col sm:flex-row items-center  gap-2  justify-center sm:justify-between bg-neutral-950 shadow-neumorphism w-full px-2 rounded-md">
                                 <p className="text-gray-200">{item.prodName}</p>
                                 <p className="text-gray-200">{item.price}</p>
                                 <p className="text-gray-200">{item.quantity}</p>

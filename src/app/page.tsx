@@ -24,11 +24,6 @@ import 'aos/dist/aos.css';
 
 
 
-type dName = {
-  myName: string
-}
-
-
 export default function Home() {
   const [products, setProducts] = useState();
   const [toggleNav, setToggleNav] = useState("false");

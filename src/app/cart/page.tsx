@@ -8,9 +8,9 @@ import { TbShoppingBag } from "react-icons/tb";
 
 
 
-export default function cart() {
+export default function Cart() {
     const { cart, clearCart } = useCart();
-  const cartLength = cart.length;
+    const cartLength = cart.length;
 
 
     if (!cart) {
