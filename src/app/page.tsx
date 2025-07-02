@@ -114,7 +114,7 @@ export default function Home() {
         <div className="flex flex-col items-center sm:items-start justify-center gap-4">
           <p data-aos="fade-right" data-aos-delay="100" className="text-4xl lg:text-6xl text-center sm:text-start text-neutral-950 font-cinzel">Design Philosophy</p>
           <p data-aos="fade-right" data-aos-delay="150" className="text-lg lg:text-xl text-center sm:text-start text-neutral-800 font-cinzel">A fusion of Swiss precision, Japanese durability, and futuristic smart technology.</p>
-          <p data-aos="fade-right" data-aos-delay="170" className="text-xs sm:text-sm md:text-lg text-center sm:text-start text-neutral-700 ">Professionals, athletes, luxury collectors, and tech-savvy individuals</p>
+          <p data-aos="fade-right" data-aos-delay="170" className="text-[0.5rem] sm:text-xs md:text-md text-center sm:text-start text-neutral-700 font-cinzel">Professionals, athletes, luxury collectors, and tech-savvy individuals</p>
         </div>
         <div data-aos="zoom-in" data-aos-delay="150" className="">
           <Image src={Img1} width={300} height={500} alt="hero" className="object-cover rounded-xl"/>
